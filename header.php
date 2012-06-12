@@ -28,7 +28,3 @@
 			<?php wp_nav_menu('show_home=1'); ?>
 			</nav>
 			<div id="content" class="group">
-			
-			
-			
-			
