@@ -1,0 +1,73 @@
+/*
+Theme Name: field2
+Theme URI: http://field2.com/
+Description: The most perfect, useful theme I can make.
+Author: Ben Dunkle
+Author URI: http://field2.com/
+Version: 0.1
+Tags: education
+
+License:GNU
+License URI:
+
+General comments (optional).
+*/
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	}
+	
+ol, ul {
+	list-style: none;
+	}
+
+blockquote, q {
+	quotes: none;
+	}
+
+:focus {
+	outline: 0;
+	}
+	
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+    }
+body {text-align:center;font-family:helvetica}
+header {height:200px}
+#wrapper {width:960px;margin:auto;background:#888}
+
+.inset {
+padding:12px
+}
+
+h1, h2 {font-weight:bold}
+
+.sidebar, #main {float:left}
+.sidebar {width:10.0em;background:#444}
+#main {background:#eee}
+nav {background:#999}
+nav a {text-decoration:none}
+nav li {display:inline-block;position:relative}
+nav a {display:inline-block;padding:12px 12px 12px 24px;background:left center url(images/icon.png) no-repeat}
+
+nav li ul {position:absolute;background:#444;z-index:100;text-align:left}
+
+nav li ul a {white-space:nowrap;}
